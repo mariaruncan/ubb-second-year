@@ -1,0 +1,26 @@
+-- evaluare View1
+GO
+CREATE PROCEDURE evaluareView1
+AS
+BEGIN
+	SELECT * FROM View1
+END
+GO
+
+-- evaluare View2
+GO
+CREATE PROCEDURE evaluareView2
+AS
+BEGIN
+	SELECT * FROM View2
+END
+GO
+
+-- evaluare View3
+GO
+CREATE PROCEDURE evaluareView3
+AS
+BEGIN
+	SELECT * FROM View3
+END
+GO

@@ -1,0 +1,39 @@
+10 - a
+%insert(n:pozitie,e:element,L:list,Rez:list)
+%(i,i,i,o)-determinist
+%insert(n, e, l1,...,lk) = {(e), l este vida
+%                          {(e, l1,...,lk), n = 0
+%                          { l1 + insert(n-1, e, l2,...,lk), altfel
+
+insert(N,E,[],[E]) :- !.
+insert(N,E,[Head|Tail],[E,Head|Tail]) :- N=:=0, !.
+insert(N,E,[Head|Tail1],[Head|Tail2]) :-
+	N1 is N-1,
+	insert(N1,E,Tail1,Tail2).
+
+
+10 - b
+
+% cmmdc(x:integer, y:integer, Rez:integer)
+% (i,i,o)-determinist
+% cmmdc(x, y) = { x, daca y = 0
+%               { cmmdc(y, x%y), altfel
+%
+% functie(L:list, Rez:integer)
+% (i,o)-determinist
+% functie(l1,...,ln) = {l1, daca n = 1
+%		       {cmmdc(l1, functie(l2,...,ln), altfel
+
+
+cmmdc(X,0,X) :- !.
+cmmdc(X,Y,Rez) :-
+	X1 is Y,
+	Y1 is mod(X,Y),
+	cmmdc(X1,Y1,Rez).
+
+
+
+functie([Head],Head) :- !.
+functie([Head|Tail],Rez) :-
+	functie(Tail, Rez1),
+	cmmdc(Head,Rez1,Rez).

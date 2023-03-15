@@ -1,0 +1,126 @@
+% candidat(N) =
+% 1. candidat(N-1), daca N >= 2
+% 2. N
+% (i, o) - nedeterminist
+% candidat(N, K)
+% N - intreg; valoarea maxima care va fi luata de K
+% K - intreg; variabila care va lua valorile 1..N
+candidat(N, N).
+candidat(N, K) :-
+	N1 is N - 1,
+	N1 >= 1,
+	candidat(N1, K).
+
+
+% lungime(l1..ln) = { 0 , daca n = 0
+%		    {1 + lungime(l2..ln), altfel
+% (i, o) - determinist
+% lungime(L, Len)
+% L - lista; lista a carei lungime dorim sa o determinam
+% Len - intreg; lungimea listei L
+lungime([], 0) :- !.
+lungime([_|T], Len) :-
+	lungime(T, Len1),
+	Len is Len1 + 1.
+
+
+% getElement(l1..ln, poz) = {l1, daca poz = 1
+%                           {getElement(l2..ln, poz-1), altfel
+% (i,i,o) - determinist
+% getElement(L, Poz, Elem)
+% L - lista; lista din care vrem sa extragem elementul de pe pozitia Poz
+% Poz - intreg; pozitia elementului cautat in lista L
+% Elem - lista; lista de pe pozitia Poz in cadrul listei L
+getElement([H|_], 1, H) :- !.
+getElement([_|T], Poz, Elem) :-
+	Poz1 is Poz - 1,
+	getElement(T, Poz1, Elem).
+
+
+
+% coliniare([xa,ya],[xb,yb],[xc,yc])={true, daca sunt coliniare
+%				     {false, altfel
+% (i,i,i) - determinist
+% [xa,ya],[xb,yb],[xc,yc] - liste; coordonatele punctelor pentru care
+% se verifica coliniaritatea
+coliniare([XA, YA], [XB, YB], [XC, YC]) :-
+	Diag_principale is XA*YB + XB*YC + XC*YA,
+	Diag_secundare is XA*YC + XB*YA + XC*YB,
+	Diag_principale =:= Diag_secundare.
+
+
+% convert(l1..lm, poz1..pozn) =
+% {[], daca n = 0
+% {getElement(l1...lm, poz1)(+)convert(l1..ln, poz2..pozn), altfel
+% (i,i,o) - determinist
+% convert(L, P, Elems)
+% L - lista; lista cu coordonatele punctelor
+% P - lista; lista cu pozitiile punctelor pe care vrem sa le extragem
+%     din lista L
+% Elems - lista; lista cu punctele de pe pozitiile P din L
+convert(_, [], []) :- !.
+convert(Puncte, [Poz1|TPoz], [E|Elems]) :-
+	getElement(Puncte, Poz1, E),
+	convert(Puncte, TPoz, Elems).
+
+
+% conditii(l1..ln, poz1...pozm) =
+% {true,p daca l[poz1...pozm] sunt coliniare
+% {false, altfel
+% (i, i, o) - determinist
+% conditii(L, P, Poz3)
+% L - lista; lista de puncte
+% P - lista; lista de pozitii ale punctelor in cadrul lui L
+% Poz3 - intreg; pozitie a unui potential element care va mentine
+%        adevarata conditia de coliniaritate
+conditii(Puncte, [Poz2, Poz1|_], Poz3) :-
+	candidat(Poz2, Poz3),
+	% legam Poz3 de 1 ... Poz2 - 1, a.i. poz3<poz2<poz1
+	Poz3 =\= Poz2,
+	% extragem punctele corespunzatoare si verificam coliniaritatea
+	getElement(Puncte, Poz1, A),
+	getElement(Puncte, Poz2, B),
+	getElement(Puncte, Poz3, C),
+	coliniare(A, B, C).
+
+
+% backAux(l1..ln, poz1..pozm)=
+% 1. convert(l1..ln, poz1..pozm)
+% 2. backAux(l1..ln, p(+)poz1..pozm), daca conditii(l1..ln, poz1..pozm)=
+%                                     true, p
+% (i,i,o) - nedeterminist
+% backAux(L, P, Sub)
+% L - lista de puncte
+% P - lista de pozitii a punctelor
+% Sub - variabila ce va fi legata la submultimile obtinute
+backAux(Puncte, Pozitii, Submultimi) :-
+	% avem o combinare valida de pozitii, deci o convertim,
+	% apoi continuam sa adaugam poz sa vedem daca ramane valida
+	convert(Puncte, Pozitii, Submultimi).
+backAux(Puncte, Pozitii, Submultimi) :-
+	conditii(Puncte, Pozitii, Poz3),
+	backAux(Puncte, [Poz3|Pozitii], Submultimi).
+
+
+
+back(Puncte, Submultimi) :-
+	lungime(Puncte, N),
+	candidat(N, Poz1),
+	candidat(Poz1, Poz2),
+	% generam combinatiile de pozitii care respecta Poz1 >= Poz2
+	Poz1 \== Poz2, %Poz1 si Poz2 sa nu fie legate la aceeasi valoare
+	backAux(Puncte, [Poz2, Poz1], Submultimi).
+
+main(Puncte, Rez) :-
+	findall(S, back(Puncte, S), Rez).
+
+
+
+
+
+
+
+
+
+
+
