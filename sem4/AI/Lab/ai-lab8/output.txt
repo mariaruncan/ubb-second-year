@@ -1,0 +1,7 @@
+<class 'regressor.GDRegression'>
+the learnt model: f(x) =  6.419621495096478e-05  +  0.7048590246286064  * x1 +  0.3153653702901623  * x2
+prediction error:  0.378778800146592
+tool error:  0.37877880014659204
+
+
+Wight
