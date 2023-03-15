@@ -1,0 +1,52 @@
+syntax="proto3";
+
+option java_package = "app.network.protobuffprotocol";
+option java_outer_classname = "AppProtobuffs";
+
+message EmployeeDto {
+    string username = 1;
+    string password = 2;
+}
+
+message TicketPurchaseDto {
+  int64 gameId = 1;
+  int32 noOfTickets = 2;
+  string clientName = 3;
+}
+
+message Team {
+  int64 id = 1;
+  string name = 2;
+}
+
+message Game {
+  int64 id = 1;
+  Team team1 = 2;
+  Team team2 = 3;
+  string date = 4;
+  string description = 5;
+  int32  totalNoTickets = 6;
+  int32  soldTickets = 7;
+  float pricePerTicket = 8;
+}
+
+message Request {
+  enum Type {UNKNOWN = 0; LOGIN = 1; LOGOUT = 2; GET_GAMES = 3; PURCHASE = 4;}
+
+  Type type = 1;
+
+  oneof payload{
+    EmployeeDto empDto = 2;
+    TicketPurchaseDto tpDto = 3;
+  }
+}
+
+message Response {
+  enum Type {UNKNOWN = 0; OK = 1; ERROR = 2; GET_GAME = 3; GAME = 4;}
+
+  Type type = 1;
+
+  string error = 2;
+  repeated Game games = 3;
+  Game game = 4;
+}

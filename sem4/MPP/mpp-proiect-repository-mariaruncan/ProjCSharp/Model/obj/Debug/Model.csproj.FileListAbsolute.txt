@@ -1,0 +1,6 @@
+D:\Facultate\Semestrul 4\MPP\mpp-proiect-repository-mariaruncan\ProjCSharp\Model\bin\Debug\Model.dll
+D:\Facultate\Semestrul 4\MPP\mpp-proiect-repository-mariaruncan\ProjCSharp\Model\bin\Debug\Model.pdb
+D:\Facultate\Semestrul 4\MPP\mpp-proiect-repository-mariaruncan\ProjCSharp\Model\obj\Debug\Model.csproj.AssemblyReference.cache
+D:\Facultate\Semestrul 4\MPP\mpp-proiect-repository-mariaruncan\ProjCSharp\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+D:\Facultate\Semestrul 4\MPP\mpp-proiect-repository-mariaruncan\ProjCSharp\Model\obj\Debug\Model.dll
+D:\Facultate\Semestrul 4\MPP\mpp-proiect-repository-mariaruncan\ProjCSharp\Model\obj\Debug\Model.pdb

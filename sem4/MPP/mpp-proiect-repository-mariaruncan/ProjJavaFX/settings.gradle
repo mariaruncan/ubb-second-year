@@ -1,0 +1,9 @@
+rootProject.name = "ProjJavaFX"
+include 'Model'
+include 'Services'
+include 'Networking'
+include 'Client'
+include 'Persistence'
+include 'Server'
+include 'RestServices'
+

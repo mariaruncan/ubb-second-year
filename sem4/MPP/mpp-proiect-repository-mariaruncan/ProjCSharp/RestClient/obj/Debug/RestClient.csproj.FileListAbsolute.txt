@@ -1,0 +1,15 @@
+D:\Facultate\Semestrul 4\MPP\mpp-proiect-repository-mariaruncan\ProjCSharp\RestClient\bin\Debug\RestClient.exe.config
+D:\Facultate\Semestrul 4\MPP\mpp-proiect-repository-mariaruncan\ProjCSharp\RestClient\bin\Debug\RestClient.exe
+D:\Facultate\Semestrul 4\MPP\mpp-proiect-repository-mariaruncan\ProjCSharp\RestClient\bin\Debug\RestClient.pdb
+D:\Facultate\Semestrul 4\MPP\mpp-proiect-repository-mariaruncan\ProjCSharp\RestClient\bin\Debug\Newtonsoft.Json.dll
+D:\Facultate\Semestrul 4\MPP\mpp-proiect-repository-mariaruncan\ProjCSharp\RestClient\bin\Debug\System.Net.Http.Formatting.dll
+D:\Facultate\Semestrul 4\MPP\mpp-proiect-repository-mariaruncan\ProjCSharp\RestClient\bin\Debug\Newtonsoft.Json.xml
+D:\Facultate\Semestrul 4\MPP\mpp-proiect-repository-mariaruncan\ProjCSharp\RestClient\bin\Debug\System.Net.Http.Formatting.xml
+D:\Facultate\Semestrul 4\MPP\mpp-proiect-repository-mariaruncan\ProjCSharp\RestClient\obj\Debug\RestClient.csproj.AssemblyReference.cache
+D:\Facultate\Semestrul 4\MPP\mpp-proiect-repository-mariaruncan\ProjCSharp\RestClient\obj\Debug\RestClient.csproj.SuggestedBindingRedirects.cache
+D:\Facultate\Semestrul 4\MPP\mpp-proiect-repository-mariaruncan\ProjCSharp\RestClient\obj\Debug\RestClient.csproj.CoreCompileInputs.cache
+D:\Facultate\Semestrul 4\MPP\mpp-proiect-repository-mariaruncan\ProjCSharp\RestClient\obj\Debug\RestClient.csproj.CopyComplete
+D:\Facultate\Semestrul 4\MPP\mpp-proiect-repository-mariaruncan\ProjCSharp\RestClient\obj\Debug\RestClient.exe
+D:\Facultate\Semestrul 4\MPP\mpp-proiect-repository-mariaruncan\ProjCSharp\RestClient\obj\Debug\RestClient.pdb
+D:\Facultate\Semestrul 4\MPP\mpp-proiect-repository-mariaruncan\ProjCSharp\RestClient\bin\Debug\ConsoleTables.dll
+D:\Facultate\Semestrul 4\MPP\mpp-proiect-repository-mariaruncan\ProjCSharp\RestClient\bin\Debug\ConsoleTables.pdb

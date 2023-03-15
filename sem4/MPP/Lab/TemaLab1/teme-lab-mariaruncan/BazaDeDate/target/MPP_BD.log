@@ -1,0 +1,274 @@
+08 Mar 2022 10:18:59,260 INFO  CarsDBRepository 18 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:D:FacultateSemestrul 4MPPdatabasescars.db} 
+08 Mar 2022 10:18:59,276 TRACE CarsDBRepository 36 add - Enter saving task Id=0 Tesla Model S 2019 
+08 Mar 2022 10:18:59,277 TRACE JdbcUtils 46 getConnection - Enter
+08 Mar 2022 10:18:59,278 TRACE JdbcUtils 23 getNewConnection - Enter
+08 Mar 2022 10:18:59,278 INFO  JdbcUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:FacultateSemestrul 4MPPdatabasescars.db
+08 Mar 2022 10:18:59,279 INFO  JdbcUtils 29 getNewConnection - user: null
+08 Mar 2022 10:18:59,279 INFO  JdbcUtils 30 getNewConnection - pass: null
+08 Mar 2022 10:19:00,001 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2d901eb0)
+08 Mar 2022 10:19:00,011 ERROR CarsDBRepository 47 add - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Masini)
+08 Mar 2022 10:19:00,014 TRACE CarsDBRepository 50 add - Exit
+08 Mar 2022 10:19:00,015 TRACE CarsDBRepository 60 findAll - Enter
+08 Mar 2022 10:19:00,017 TRACE JdbcUtils 46 getConnection - Enter
+08 Mar 2022 10:19:00,018 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2d901eb0)
+08 Mar 2022 10:19:00,020 ERROR CarsDBRepository 77 findAll - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Masini)
+08 Mar 2022 10:19:00,021 TRACE CarsDBRepository 80 findAll - Exit
+08 Mar 2022 10:19:10,013 INFO  CarsDBRepository 18 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:D:FacultateSemestrul 4MPPdatabasescars.db} 
+08 Mar 2022 10:19:10,032 TRACE CarsDBRepository 36 add - Enter saving task Id=0 Tesla Model S 2019 
+08 Mar 2022 10:19:10,032 TRACE JdbcUtils 46 getConnection - Enter
+08 Mar 2022 10:19:10,033 TRACE JdbcUtils 23 getNewConnection - Enter
+08 Mar 2022 10:19:10,034 INFO  JdbcUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:FacultateSemestrul 4MPPdatabasescars.db
+08 Mar 2022 10:19:10,034 INFO  JdbcUtils 29 getNewConnection - user: null
+08 Mar 2022 10:19:10,035 INFO  JdbcUtils 30 getNewConnection - pass: null
+08 Mar 2022 10:19:10,419 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2d901eb0)
+08 Mar 2022 10:19:10,431 ERROR CarsDBRepository 47 add - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Masini)
+08 Mar 2022 10:19:10,433 TRACE CarsDBRepository 50 add - Exit
+08 Mar 2022 10:19:10,434 TRACE CarsDBRepository 60 findAll - Enter
+08 Mar 2022 10:19:10,434 TRACE JdbcUtils 46 getConnection - Enter
+08 Mar 2022 10:19:10,435 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2d901eb0)
+08 Mar 2022 10:19:10,436 ERROR CarsDBRepository 77 findAll - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Masini)
+08 Mar 2022 10:19:10,436 TRACE CarsDBRepository 80 findAll - Exit
+08 Mar 2022 10:20:36,516 INFO  CarsDBRepository 18 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:D:FacultateSemestrul 4MPPdatabasescars.db} 
+08 Mar 2022 10:20:36,534 TRACE CarsDBRepository 36 add - Enter saving task Id=0 Tesla Model S 2019 
+08 Mar 2022 10:20:36,535 TRACE JdbcUtils 46 getConnection - Enter
+08 Mar 2022 10:20:36,535 TRACE JdbcUtils 23 getNewConnection - Enter
+08 Mar 2022 10:20:36,536 INFO  JdbcUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:FacultateSemestrul 4MPPdatabasescars.db
+08 Mar 2022 10:20:36,537 INFO  JdbcUtils 29 getNewConnection - user: null
+08 Mar 2022 10:20:36,537 INFO  JdbcUtils 30 getNewConnection - pass: null
+08 Mar 2022 10:20:36,897 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2d901eb0)
+08 Mar 2022 10:20:36,906 ERROR CarsDBRepository 47 add - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Masini)
+08 Mar 2022 10:20:36,907 TRACE CarsDBRepository 50 add - Exit
+08 Mar 2022 10:20:36,908 TRACE CarsDBRepository 60 findAll - Enter
+08 Mar 2022 10:20:36,908 TRACE JdbcUtils 46 getConnection - Enter
+08 Mar 2022 10:20:36,909 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2d901eb0)
+08 Mar 2022 10:20:36,910 ERROR CarsDBRepository 77 findAll - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Masini)
+08 Mar 2022 10:20:36,912 TRACE CarsDBRepository 80 findAll - Exit
+08 Mar 2022 10:20:43,961 INFO  CarsDBRepository 18 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:D:FacultateSemestrul 4MPPdatabasescars.db} 
+08 Mar 2022 10:20:43,989 TRACE CarsDBRepository 36 add - Enter saving task Id=0 Tesla Model S 2019 
+08 Mar 2022 10:20:43,990 TRACE JdbcUtils 46 getConnection - Enter
+08 Mar 2022 10:20:43,990 TRACE JdbcUtils 23 getNewConnection - Enter
+08 Mar 2022 10:20:43,992 INFO  JdbcUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:FacultateSemestrul 4MPPdatabasescars.db
+08 Mar 2022 10:20:43,993 INFO  JdbcUtils 29 getNewConnection - user: null
+08 Mar 2022 10:20:43,994 INFO  JdbcUtils 30 getNewConnection - pass: null
+08 Mar 2022 10:20:44,334 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2d901eb0)
+08 Mar 2022 10:20:44,342 ERROR CarsDBRepository 47 add - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Masini)
+08 Mar 2022 10:20:44,345 TRACE CarsDBRepository 50 add - Exit
+08 Mar 2022 10:20:44,345 TRACE CarsDBRepository 60 findAll - Enter
+08 Mar 2022 10:20:44,346 TRACE JdbcUtils 46 getConnection - Enter
+08 Mar 2022 10:20:44,346 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2d901eb0)
+08 Mar 2022 10:20:44,347 ERROR CarsDBRepository 77 findAll - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Masini)
+08 Mar 2022 10:20:44,348 TRACE CarsDBRepository 80 findAll - Exit
+08 Mar 2022 10:26:22,654 INFO  CarsDBRepository 18 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:D:FacultateSemestrul 4MPPdatabasescars.db} 
+08 Mar 2022 10:26:22,680 TRACE CarsDBRepository 57 add - Enter saving task Id=0 Tesla Model S 2019 
+08 Mar 2022 10:26:22,680 TRACE JdbcUtils 46 getConnection - Enter
+08 Mar 2022 10:26:22,681 TRACE JdbcUtils 23 getNewConnection - Enter
+08 Mar 2022 10:26:22,681 INFO  JdbcUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:FacultateSemestrul 4MPPdatabasescars.db
+08 Mar 2022 10:26:22,682 INFO  JdbcUtils 29 getNewConnection - user: null
+08 Mar 2022 10:26:22,684 INFO  JdbcUtils 30 getNewConnection - pass: null
+08 Mar 2022 10:26:23,010 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2d901eb0)
+08 Mar 2022 10:26:23,017 ERROR CarsDBRepository 68 add - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Masini)
+08 Mar 2022 10:26:23,018 TRACE CarsDBRepository 71 add - Exit
+08 Mar 2022 10:26:23,019 TRACE CarsDBRepository 81 findAll - Enter
+08 Mar 2022 10:26:23,019 TRACE JdbcUtils 46 getConnection - Enter
+08 Mar 2022 10:26:23,020 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2d901eb0)
+08 Mar 2022 10:26:23,021 ERROR CarsDBRepository 98 findAll - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Masini)
+08 Mar 2022 10:26:23,022 TRACE CarsDBRepository 101 findAll - Exit
+08 Mar 2022 10:26:23,023 TRACE CarsDBRepository 24 findByManufacturer - Enter
+08 Mar 2022 10:26:23,024 TRACE JdbcUtils 46 getConnection - Enter
+08 Mar 2022 10:26:23,025 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2d901eb0)
+08 Mar 2022 10:26:23,026 ERROR CarsDBRepository 42 findByManufacturer - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Masini)
+08 Mar 2022 10:26:23,026 TRACE CarsDBRepository 45 findByManufacturer - Exit
+08 Mar 2022 10:30:43,551 INFO  CarsDBRepository 18 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:D:FacultateSemestrul 4MPPdatabasescars.db} 
+08 Mar 2022 10:30:43,568 TRACE CarsDBRepository 57 add - Enter saving task Id=0 Tesla Model S 2019 
+08 Mar 2022 10:30:43,569 TRACE JdbcUtils 46 getConnection - Enter
+08 Mar 2022 10:30:43,569 TRACE JdbcUtils 23 getNewConnection - Enter
+08 Mar 2022 10:30:43,570 INFO  JdbcUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:FacultateSemestrul 4MPPdatabasescars.db
+08 Mar 2022 10:30:43,571 INFO  JdbcUtils 29 getNewConnection - user: null
+08 Mar 2022 10:30:43,571 INFO  JdbcUtils 30 getNewConnection - pass: null
+08 Mar 2022 10:30:43,874 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2d901eb0)
+08 Mar 2022 10:30:43,885 ERROR CarsDBRepository 68 add - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Masini)
+08 Mar 2022 10:30:43,886 TRACE CarsDBRepository 71 add - Exit
+08 Mar 2022 10:30:43,887 TRACE CarsDBRepository 81 findAll - Enter
+08 Mar 2022 10:30:43,888 TRACE JdbcUtils 46 getConnection - Enter
+08 Mar 2022 10:30:43,888 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2d901eb0)
+08 Mar 2022 10:30:43,889 ERROR CarsDBRepository 98 findAll - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Masini)
+08 Mar 2022 10:30:43,890 TRACE CarsDBRepository 101 findAll - Exit
+08 Mar 2022 10:30:43,891 TRACE CarsDBRepository 24 findByManufacturer - Enter
+08 Mar 2022 10:30:43,892 TRACE JdbcUtils 46 getConnection - Enter
+08 Mar 2022 10:30:43,892 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2d901eb0)
+08 Mar 2022 10:30:43,894 ERROR CarsDBRepository 42 findByManufacturer - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Masini)
+08 Mar 2022 10:30:43,895 TRACE CarsDBRepository 45 findByManufacturer - Exit
+08 Mar 2022 10:31:03,376 INFO  CarsDBRepository 18 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:D:FacultateSemestrul 4MPPdatabasescars.db} 
+08 Mar 2022 10:31:03,397 TRACE CarsDBRepository 57 add - Enter saving task Id=0 Tesla Model S 2019 
+08 Mar 2022 10:31:03,397 TRACE JdbcUtils 46 getConnection - Enter
+08 Mar 2022 10:31:03,398 TRACE JdbcUtils 23 getNewConnection - Enter
+08 Mar 2022 10:31:03,398 INFO  JdbcUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:FacultateSemestrul 4MPPdatabasescars.db
+08 Mar 2022 10:31:03,399 INFO  JdbcUtils 29 getNewConnection - user: null
+08 Mar 2022 10:31:03,400 INFO  JdbcUtils 30 getNewConnection - pass: null
+08 Mar 2022 10:31:03,796 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2d901eb0)
+08 Mar 2022 10:31:03,804 ERROR CarsDBRepository 68 add - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Masini)
+08 Mar 2022 10:31:03,806 TRACE CarsDBRepository 71 add - Exit
+08 Mar 2022 10:31:03,806 TRACE CarsDBRepository 81 findAll - Enter
+08 Mar 2022 10:31:03,807 TRACE JdbcUtils 46 getConnection - Enter
+08 Mar 2022 10:31:03,807 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2d901eb0)
+08 Mar 2022 10:31:03,808 ERROR CarsDBRepository 98 findAll - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Masini)
+08 Mar 2022 10:31:03,809 TRACE CarsDBRepository 101 findAll - Exit
+08 Mar 2022 10:31:03,811 TRACE CarsDBRepository 24 findByManufacturer - Enter
+08 Mar 2022 10:31:03,811 TRACE JdbcUtils 46 getConnection - Enter
+08 Mar 2022 10:31:03,812 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2d901eb0)
+08 Mar 2022 10:31:03,813 ERROR CarsDBRepository 42 findByManufacturer - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Masini)
+08 Mar 2022 10:31:03,814 TRACE CarsDBRepository 45 findByManufacturer - Exit
+08 Mar 2022 10:32:17,721 INFO  CarsDBRepository 18 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:D:FacultateSemestrul 4MPPdatabasescars.db} 
+08 Mar 2022 10:32:17,741 TRACE CarsDBRepository 57 add - Enter saving task Id=0 Tesla Model S 2019 
+08 Mar 2022 10:32:17,742 TRACE JdbcUtils 46 getConnection - Enter
+08 Mar 2022 10:32:17,742 TRACE JdbcUtils 23 getNewConnection - Enter
+08 Mar 2022 10:32:17,743 INFO  JdbcUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:FacultateSemestrul 4MPPdatabasescars.db
+08 Mar 2022 10:32:17,743 INFO  JdbcUtils 29 getNewConnection - user: null
+08 Mar 2022 10:32:17,744 INFO  JdbcUtils 30 getNewConnection - pass: null
+08 Mar 2022 10:32:18,095 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2d901eb0)
+08 Mar 2022 10:32:18,103 ERROR CarsDBRepository 68 add - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Masini)
+08 Mar 2022 10:32:18,104 TRACE CarsDBRepository 71 add - Exit
+08 Mar 2022 10:32:18,105 TRACE CarsDBRepository 81 findAll - Enter
+08 Mar 2022 10:32:18,106 TRACE JdbcUtils 46 getConnection - Enter
+08 Mar 2022 10:32:18,106 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2d901eb0)
+08 Mar 2022 10:32:18,107 ERROR CarsDBRepository 98 findAll - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Masini)
+08 Mar 2022 10:32:18,108 TRACE CarsDBRepository 101 findAll - Exit
+08 Mar 2022 10:32:18,109 TRACE CarsDBRepository 24 findByManufacturer - Enter
+08 Mar 2022 10:32:18,109 TRACE JdbcUtils 46 getConnection - Enter
+08 Mar 2022 10:32:18,110 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2d901eb0)
+08 Mar 2022 10:32:18,112 ERROR CarsDBRepository 42 findByManufacturer - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Masini)
+08 Mar 2022 10:32:18,113 TRACE CarsDBRepository 45 findByManufacturer - Exit
+08 Mar 2022 10:34:32,944 INFO  CarsDBRepository 18 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:D:FacultateSemestrul 4MPPdatabasescars.db} 
+08 Mar 2022 10:34:32,971 TRACE CarsDBRepository 57 add - Enter saving task Id=0 Tesla Model S 2019 
+08 Mar 2022 10:34:32,972 TRACE JdbcUtils 46 getConnection - Enter
+08 Mar 2022 10:34:32,973 TRACE JdbcUtils 23 getNewConnection - Enter
+08 Mar 2022 10:34:32,974 INFO  JdbcUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:FacultateSemestrul 4MPPdatabasescars.db
+08 Mar 2022 10:34:32,976 INFO  JdbcUtils 29 getNewConnection - user: null
+08 Mar 2022 10:34:32,977 INFO  JdbcUtils 30 getNewConnection - pass: null
+08 Mar 2022 10:34:33,465 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2d901eb0)
+08 Mar 2022 10:34:33,480 ERROR CarsDBRepository 68 add - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Masini)
+08 Mar 2022 10:34:33,482 TRACE CarsDBRepository 71 add - Exit
+08 Mar 2022 10:34:33,483 TRACE CarsDBRepository 81 findAll - Enter
+08 Mar 2022 10:34:33,484 TRACE JdbcUtils 46 getConnection - Enter
+08 Mar 2022 10:34:33,485 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2d901eb0)
+08 Mar 2022 10:34:33,486 ERROR CarsDBRepository 98 findAll - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Masini)
+08 Mar 2022 10:34:33,487 TRACE CarsDBRepository 101 findAll - Exit
+08 Mar 2022 10:34:33,489 TRACE CarsDBRepository 24 findByManufacturer - Enter
+08 Mar 2022 10:34:33,489 TRACE JdbcUtils 46 getConnection - Enter
+08 Mar 2022 10:34:33,490 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2d901eb0)
+08 Mar 2022 10:34:33,492 ERROR CarsDBRepository 42 findByManufacturer - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Masini)
+08 Mar 2022 10:34:33,494 TRACE CarsDBRepository 45 findByManufacturer - Exit
+08 Mar 2022 10:34:41,080 INFO  CarsDBRepository 18 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:D:FacultateSemestrul 4MPPdatabasescars.db} 
+08 Mar 2022 10:34:41,107 TRACE CarsDBRepository 57 add - Enter saving task Id=0 Tesla Model S 2019 
+08 Mar 2022 10:34:41,108 TRACE JdbcUtils 46 getConnection - Enter
+08 Mar 2022 10:34:41,108 TRACE JdbcUtils 23 getNewConnection - Enter
+08 Mar 2022 10:34:41,110 INFO  JdbcUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:FacultateSemestrul 4MPPdatabasescars.db
+08 Mar 2022 10:34:41,111 INFO  JdbcUtils 29 getNewConnection - user: null
+08 Mar 2022 10:34:41,112 INFO  JdbcUtils 30 getNewConnection - pass: null
+08 Mar 2022 10:34:41,472 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2d901eb0)
+08 Mar 2022 10:34:41,481 ERROR CarsDBRepository 68 add - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Masini)
+08 Mar 2022 10:34:41,482 TRACE CarsDBRepository 71 add - Exit
+08 Mar 2022 10:34:41,482 TRACE CarsDBRepository 81 findAll - Enter
+08 Mar 2022 10:34:41,483 TRACE JdbcUtils 46 getConnection - Enter
+08 Mar 2022 10:34:41,483 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2d901eb0)
+08 Mar 2022 10:34:41,484 ERROR CarsDBRepository 98 findAll - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Masini)
+08 Mar 2022 10:34:41,485 TRACE CarsDBRepository 101 findAll - Exit
+08 Mar 2022 10:34:41,486 TRACE CarsDBRepository 24 findByManufacturer - Enter
+08 Mar 2022 10:34:41,486 TRACE JdbcUtils 46 getConnection - Enter
+08 Mar 2022 10:34:41,487 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2d901eb0)
+08 Mar 2022 10:34:41,488 ERROR CarsDBRepository 42 findByManufacturer - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Masini)
+08 Mar 2022 10:34:41,491 TRACE CarsDBRepository 45 findByManufacturer - Exit
+08 Mar 2022 10:37:36,413 INFO  CarsDBRepository 18 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:D:FacultateSemestrul 4MPPdatabasescars.db} 
+08 Mar 2022 10:37:36,434 TRACE CarsDBRepository 57 add - Enter saving task Id=0 Tesla Model S 2019 
+08 Mar 2022 10:37:36,435 TRACE JdbcUtils 46 getConnection - Enter
+08 Mar 2022 10:37:36,436 TRACE JdbcUtils 23 getNewConnection - Enter
+08 Mar 2022 10:37:36,437 INFO  JdbcUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:FacultateSemestrul 4MPPdatabasescars.db
+08 Mar 2022 10:37:36,437 INFO  JdbcUtils 29 getNewConnection - user: null
+08 Mar 2022 10:37:36,438 INFO  JdbcUtils 30 getNewConnection - pass: null
+08 Mar 2022 10:37:36,935 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2d901eb0)
+08 Mar 2022 10:37:36,945 ERROR CarsDBRepository 68 add - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Masini)
+08 Mar 2022 10:37:36,946 TRACE CarsDBRepository 71 add - Exit
+08 Mar 2022 10:37:36,946 TRACE CarsDBRepository 81 findAll - Enter
+08 Mar 2022 10:37:36,946 TRACE JdbcUtils 46 getConnection - Enter
+08 Mar 2022 10:37:36,947 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2d901eb0)
+08 Mar 2022 10:37:36,949 ERROR CarsDBRepository 98 findAll - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Masini)
+08 Mar 2022 10:37:36,950 TRACE CarsDBRepository 101 findAll - Exit
+08 Mar 2022 10:37:36,951 TRACE CarsDBRepository 24 findByManufacturer - Enter
+08 Mar 2022 10:37:36,951 TRACE JdbcUtils 46 getConnection - Enter
+08 Mar 2022 10:37:36,951 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2d901eb0)
+08 Mar 2022 10:37:36,952 ERROR CarsDBRepository 42 findByManufacturer - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Masini)
+08 Mar 2022 10:37:36,952 TRACE CarsDBRepository 45 findByManufacturer - Exit
+08 Mar 2022 10:37:59,153 INFO  CarsDBRepository 18 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:D:\FacultateSemestrul 4MPPdatabasescars.db} 
+08 Mar 2022 10:37:59,176 TRACE CarsDBRepository 57 add - Enter saving task Id=0 Tesla Model S 2019 
+08 Mar 2022 10:37:59,177 TRACE JdbcUtils 46 getConnection - Enter
+08 Mar 2022 10:37:59,178 TRACE JdbcUtils 23 getNewConnection - Enter
+08 Mar 2022 10:37:59,179 INFO  JdbcUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\FacultateSemestrul 4MPPdatabasescars.db
+08 Mar 2022 10:37:59,179 INFO  JdbcUtils 29 getNewConnection - user: null
+08 Mar 2022 10:37:59,180 INFO  JdbcUtils 30 getNewConnection - pass: null
+08 Mar 2022 10:37:59,525 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2d901eb0)
+08 Mar 2022 10:37:59,533 ERROR CarsDBRepository 68 add - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Masini)
+08 Mar 2022 10:37:59,534 TRACE CarsDBRepository 71 add - Exit
+08 Mar 2022 10:37:59,534 TRACE CarsDBRepository 81 findAll - Enter
+08 Mar 2022 10:37:59,535 TRACE JdbcUtils 46 getConnection - Enter
+08 Mar 2022 10:37:59,535 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2d901eb0)
+08 Mar 2022 10:37:59,536 ERROR CarsDBRepository 98 findAll - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Masini)
+08 Mar 2022 10:37:59,537 TRACE CarsDBRepository 101 findAll - Exit
+08 Mar 2022 10:37:59,538 TRACE CarsDBRepository 24 findByManufacturer - Enter
+08 Mar 2022 10:37:59,539 TRACE JdbcUtils 46 getConnection - Enter
+08 Mar 2022 10:37:59,540 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2d901eb0)
+08 Mar 2022 10:37:59,541 ERROR CarsDBRepository 42 findByManufacturer - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Masini)
+08 Mar 2022 10:37:59,542 TRACE CarsDBRepository 45 findByManufacturer - Exit
+08 Mar 2022 10:38:21,965 INFO  CarsDBRepository 18 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:D:\Facultate\Semestrul 4\MPP\databases\cars.db} 
+08 Mar 2022 10:38:21,984 TRACE CarsDBRepository 57 add - Enter saving task Id=0 Tesla Model S 2019 
+08 Mar 2022 10:38:21,985 TRACE JdbcUtils 46 getConnection - Enter
+08 Mar 2022 10:38:21,985 TRACE JdbcUtils 23 getNewConnection - Enter
+08 Mar 2022 10:38:21,986 INFO  JdbcUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\Facultate\Semestrul 4\MPP\databases\cars.db
+08 Mar 2022 10:38:21,987 INFO  JdbcUtils 29 getNewConnection - user: null
+08 Mar 2022 10:38:21,987 INFO  JdbcUtils 30 getNewConnection - pass: null
+08 Mar 2022 10:38:22,322 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2d901eb0)
+08 Mar 2022 10:38:22,330 TRACE CarsDBRepository 65 add - Saved 1 instances
+08 Mar 2022 10:38:22,330 TRACE CarsDBRepository 71 add - Exit
+08 Mar 2022 10:38:22,331 TRACE CarsDBRepository 81 findAll - Enter
+08 Mar 2022 10:38:22,331 TRACE JdbcUtils 46 getConnection - Enter
+08 Mar 2022 10:38:22,332 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2d901eb0)
+08 Mar 2022 10:38:22,334 TRACE CarsDBRepository 101 findAll - Exit
+08 Mar 2022 10:38:22,334 TRACE CarsDBRepository 24 findByManufacturer - Enter
+08 Mar 2022 10:38:22,335 TRACE JdbcUtils 46 getConnection - Enter
+08 Mar 2022 10:38:22,335 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2d901eb0)
+08 Mar 2022 10:38:22,335 TRACE CarsDBRepository 45 findByManufacturer - Exit
+08 Mar 2022 10:38:37,544 INFO  CarsDBRepository 18 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:D:\Facultate\Semestrul 4\MPP\databases\cars.db} 
+08 Mar 2022 10:38:37,572 TRACE CarsDBRepository 57 add - Enter saving task Id=0 Tesla Model S 2019 
+08 Mar 2022 10:38:37,573 TRACE JdbcUtils 46 getConnection - Enter
+08 Mar 2022 10:38:37,573 TRACE JdbcUtils 23 getNewConnection - Enter
+08 Mar 2022 10:38:37,574 INFO  JdbcUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\Facultate\Semestrul 4\MPP\databases\cars.db
+08 Mar 2022 10:38:37,575 INFO  JdbcUtils 29 getNewConnection - user: null
+08 Mar 2022 10:38:37,576 INFO  JdbcUtils 30 getNewConnection - pass: null
+08 Mar 2022 10:38:37,949 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2d901eb0)
+08 Mar 2022 10:38:37,958 TRACE CarsDBRepository 65 add - Saved 1 instances
+08 Mar 2022 10:38:37,958 TRACE CarsDBRepository 71 add - Exit
+08 Mar 2022 10:38:37,960 TRACE CarsDBRepository 81 findAll - Enter
+08 Mar 2022 10:38:37,961 TRACE JdbcUtils 46 getConnection - Enter
+08 Mar 2022 10:38:37,962 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2d901eb0)
+08 Mar 2022 10:38:37,963 TRACE CarsDBRepository 101 findAll - Exit
+08 Mar 2022 10:38:37,964 TRACE CarsDBRepository 24 findByManufacturer - Enter
+08 Mar 2022 10:38:37,965 TRACE JdbcUtils 46 getConnection - Enter
+08 Mar 2022 10:38:37,966 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2d901eb0)
+08 Mar 2022 10:38:37,967 TRACE CarsDBRepository 45 findByManufacturer - Exit
+12 Mar 2022 01:25:06,237 INFO  CarsDBRepository 18 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:D:\Facultate\Semestrul 4\MPP\databases\cars.db} 
+12 Mar 2022 01:25:06,261 TRACE CarsDBRepository 57 add - Enter saving task Id=0 Tesla Model S 2019 
+12 Mar 2022 01:25:06,261 TRACE JdbcUtils 46 getConnection - Enter
+12 Mar 2022 01:25:06,261 TRACE JdbcUtils 23 getNewConnection - Enter
+12 Mar 2022 01:25:06,263 INFO  JdbcUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\Facultate\Semestrul 4\MPP\databases\cars.db
+12 Mar 2022 01:25:06,263 INFO  JdbcUtils 29 getNewConnection - user: null
+12 Mar 2022 01:25:06,263 INFO  JdbcUtils 30 getNewConnection - pass: null
+12 Mar 2022 01:25:06,456 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2d901eb0)
+12 Mar 2022 01:25:06,468 TRACE CarsDBRepository 65 add - Saved 1 instances
+12 Mar 2022 01:25:06,468 TRACE CarsDBRepository 71 add - Exit
+12 Mar 2022 01:25:06,469 TRACE CarsDBRepository 81 findAll - Enter
+12 Mar 2022 01:25:06,469 TRACE JdbcUtils 46 getConnection - Enter
+12 Mar 2022 01:25:06,469 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2d901eb0)
+12 Mar 2022 01:25:06,469 TRACE CarsDBRepository 101 findAll - Exit
+12 Mar 2022 01:25:06,469 TRACE CarsDBRepository 24 findByManufacturer - Enter
+12 Mar 2022 01:25:06,471 TRACE JdbcUtils 46 getConnection - Enter
+12 Mar 2022 01:25:06,471 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2d901eb0)
+12 Mar 2022 01:25:06,471 TRACE CarsDBRepository 45 findByManufacturer - Exit

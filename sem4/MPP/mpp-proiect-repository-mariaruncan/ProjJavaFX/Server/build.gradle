@@ -1,0 +1,23 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+group 'app'
+version '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.2'
+    implementation project (':Model')
+    implementation project (':Services')
+    implementation project (':Persistence')
+    implementation project (':Networking')
+}
+
+application {
+    mainClass = 'app.StartRpcServer'
+}

@@ -1,0 +1,10 @@
+D:\Facultate\Semestrul 4\MPP\mpp-proiect-repository-mariaruncan\ProjCSharp\Services\bin\Debug\Services.dll.config
+D:\Facultate\Semestrul 4\MPP\mpp-proiect-repository-mariaruncan\ProjCSharp\Services\bin\Debug\Services.dll
+D:\Facultate\Semestrul 4\MPP\mpp-proiect-repository-mariaruncan\ProjCSharp\Services\bin\Debug\Services.pdb
+D:\Facultate\Semestrul 4\MPP\mpp-proiect-repository-mariaruncan\ProjCSharp\Services\bin\Debug\Model.dll
+D:\Facultate\Semestrul 4\MPP\mpp-proiect-repository-mariaruncan\ProjCSharp\Services\bin\Debug\Model.pdb
+D:\Facultate\Semestrul 4\MPP\mpp-proiect-repository-mariaruncan\ProjCSharp\Services\obj\Debug\Services.csproj.AssemblyReference.cache
+D:\Facultate\Semestrul 4\MPP\mpp-proiect-repository-mariaruncan\ProjCSharp\Services\obj\Debug\Services.csproj.CoreCompileInputs.cache
+D:\Facultate\Semestrul 4\MPP\mpp-proiect-repository-mariaruncan\ProjCSharp\Services\obj\Debug\Services.csproj.CopyComplete
+D:\Facultate\Semestrul 4\MPP\mpp-proiect-repository-mariaruncan\ProjCSharp\Services\obj\Debug\Services.dll
+D:\Facultate\Semestrul 4\MPP\mpp-proiect-repository-mariaruncan\ProjCSharp\Services\obj\Debug\Services.pdb
