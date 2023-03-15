@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pb 5</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <style>
+        #container {
+            display: flex;
+            flex-direction: row;
+        }
+        #tree {
+            border-right: 3px solid red;
+            min-width: 300px;
+            min-height: 650px;
+        }
+        #fileContent {
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <ul id="tree">
+            <li>
+                <span id="root">root</span>
+            </li>
+        </ul>
+        <p id="fileContent"></p>
+    </div>
+</body>
+</html>

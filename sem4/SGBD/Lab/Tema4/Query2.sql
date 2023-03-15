@@ -1,0 +1,49 @@
+-- DIRTY READS - prima
+INSERT INTO Istoric VALUES ('Tran update Clienti')
+BEGIN TRANSACTION
+	UPDATE Clienti SET varsta = 30 WHERE idClient =21
+	WAITFOR DELAY '00:00:5'
+ROLLBACK TRANSACTION
+INSERT INTO Istoric VALUES ('Tran update rollback')
+
+SELECT * FROM Istoric
+DELETE FROM Istoric
+
+-- UNREPEATABLE READS - a doua
+BEGIN TRANSACTION;
+	INSERT INTO Istoric VALUES ('UNREPEATABLE READS Tran update Clienti');
+	UPDATE Clienti SET varsta = 120 WHERE nume = 'test'
+COMMIT TRANSACTION;
+INSERT INTO Istoric VALUES ('UNREPEATABLE READS Tran update commit');
+
+SELECT * FROM Istoric
+DELETE FROM Istoric
+
+-- PHANTOM READS - a doua
+BEGIN TRANSACTION;
+	INSERT INTO Istoric VALUES ('PHANTOM READS Tran insert Clienti');
+	INSERT INTO Clienti(nume, prenume, varsta) VALUES ('test2', 'test2', 50);
+COMMIT TRANSACTION;
+INSERT INTO Istoric VALUES ('PHANTOM READS Tran insert commit');
+
+SELECT * FROM Istoric
+DELETE FROM Istoric
+
+-- DEADLOCK
+-- TRAN 2
+SET TRANSACTION ISOLATION LEVEL SERIALIZABLE;
+BEGIN TRY
+	BEGIN TRAN;
+		UPDATE Producatori SET nume = 'deadlock tran2' WHERE idProducator = 20
+		WAITFOR DELAY '00:00:5'
+		UPDATE Clienti SET nume = 'deadlock tran2' WHERE idClient = 23
+	COMMIT TRAN;
+END TRY
+BEGIN CATCH
+	ROLLBACK TRANSACTION
+	INSERT INTO Istoric VALUES ('DEADLOCK tran2 victim');
+END CATCH
+
+
+SELECT * FROM Istoric
+DELETE FROM Istoric

@@ -1,0 +1,64 @@
+html, body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    height: 20%;
+    margin: 0;
+    padding: 0;
+    background-color: red;
+    border: solid 1px;
+}
+
+ul {
+    height: 15%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: solid 1px black;
+    background-color: yellow;
+    display: table;
+    list-style-type: none;
+}
+
+li {
+    width: 19%;
+    margin: 0;
+    padding-left: 5px;
+    border-left: solid 1px;
+    vertical-align: center;
+    display: table-cell;
+    text-align: center;
+}
+
+.parent {
+    height: 60%;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: solid 1px;
+    background-color: green;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    height: 15%;
+    margin: 0;
+    padding: 0;
+    border: solid 1px;
+    background-color: pink;
+}
+
+p {
+  margin-block: 0;
+}

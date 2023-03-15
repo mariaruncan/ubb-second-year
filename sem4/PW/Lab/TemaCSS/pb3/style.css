@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    background-color: red;
+    height: 100px;
+}
+
+ul {
+    width: 100%;
+    list-style-type: none;
+    background-color: yellow;
+    height: 25px;
+    display: table;
+}
+
+li {
+    border-left: solid 1px black;
+    display: table-cell;
+}
+
+#mainView {
+    min-height: 74vh;
+    height: auto;
+    background-color: green;
+}
+
+footer {
+    text-align: center;
+    background-color: pink;
+    height: 60px;
+}

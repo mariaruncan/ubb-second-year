@@ -1,0 +1,21 @@
+img {
+    height: 200px;
+    width: 200px;
+}
+
+ul {
+    border: solid 1px black;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: auto auto;
+    width: max-content;
+    grid-gap: 30px;
+    list-style-type: none;
+}
+
+li {
+    padding: 30px;
+    background-color: aqua;
+    text-align: center;
+    font-size: 150%;
+}

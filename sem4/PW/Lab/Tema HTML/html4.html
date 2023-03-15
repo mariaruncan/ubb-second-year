@@ -1,0 +1,299 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html lang="ro">
+
+<head>
+    <title>HTML4</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+    <h1 align="center">Formular pentru intrarea în țară</h1>
+    <p>Persoanele care folosesc la intrarea pe teritoriul României un document
+        de călătorie emis de statul român au obligația introducerii în formular a
+        codului numeric personal(CNP), iar persoanele care folosesc la intrarea pe
+        teritoriul României un document de călătorie emis de un alt stat, recunoscut
+        la nivel național, au obligația intorducerii în formular a seriei și numărului
+        documentului de călătorie utilizat.</p>
+
+    <form action="">
+        <table border="2" align="center">
+            <tr>
+                <th colspan="10" bgcolor="#c4ffb5" valign="bottom" height="30px">Date personale</th>
+            </tr>
+            <tr>
+                <th colspan="2">Țara care a emis <br> documentul de călătorie</th>
+                <td colspan="3">
+                    <input type="text" id="tara" name="tara" value="România" disabled>
+                </td>
+                <th colspan="2">Tipul documentului <br> de călătorie</th>
+                <td colspan="3">
+                    <select>
+                        <option>Carte de identitate</option>
+                        <option>Pașaport</option>
+                        <option selected>Alt document de călătorie</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <th colspan="1">CNP</th>
+                <td colspan="2">
+                    <input type="text" maxlength="13">
+                </td>
+                <th colspan="1">Sex</th>
+                <td colspan="2">
+                    <label>
+                        <input type="radio" id="checkBoxMasculin" name="sex" checked>
+                        Masculin
+                    </label>
+                    <label>
+                        <input type="radio" id="checkBoxFeminin" name="sex">
+                        Feminin
+                    </label>
+                </td>
+                <th colspan="2">Data nașterii</th>
+                <td colspan="2">
+                    <input type="text">
+                </td>
+            </tr>
+            <tr>
+                <th colspan="2">Nume</th>
+                <td colspan="3">
+                    <input type="text" id="nume" name="nume" size="30">
+                </td>
+                <th colspan="2">Prenume</th>
+                <td colspan="3">
+                    <input type="text" id="prenume" name="prenume" size="30">
+                </td>
+            </tr>
+            <tr>
+                <th colspan="10" bgcolor="#c4ffb5">Țara din care ați plecat</th>
+            </tr>
+            <tr>
+                <th colspan="1">Țara</th>
+                <td colspan="2">
+                    <input type="text">
+                </td>
+                <th colspan="1">Localitatea</th>
+                <td colspan="2">
+                    <input type="text">
+                </td>
+                <th colspan="2"> Data plecării</th>
+                <td colspan="2">
+                    <input type="text">
+                </td>
+            </tr>
+            <tr>
+                <th colspan="10" bgcolor="#c4ffb5">În România voi locui la următoarele adrese:</th>
+            </tr>
+            <tr>
+                <td colspan="10">
+                    <table width="100%">
+                        <tr>
+                            <th><label></label></th>
+                            <th>Județ</th>
+                            <th>Localitate</th>
+                            <th>Stradă</th>
+                            <th>Număr</th>
+                            <th>Bloc</th>
+                            <th>Scară</th>
+                            <th>Apartament</th>
+                        </tr>
+                        <tr>
+                            <td><label>1</label></td>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                        </tr>
+                        <tr>
+                            <td><label>2</label></td>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                        </tr>
+                        <tr>
+                            <td><label>3</label></td>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <th colspan="7">În România voi călători cu:</th>
+                <td colspan="1">
+                    <select name="moduriDeCalatorie" id="moduriDeCalatorie" multiple>
+                        <option value="vehicul" selected>Vehicul</option>
+                        <option value="tren">Tren</option>
+                        <option value="autocar">Autocar</option>
+                        <option value="avion">Avion</option>
+                        <option value="pietonal">Pietonal</option>
+                    </select>
+                </td>
+                <td colspan="2">
+                    <img src="img.png" width="80px" height="30px" alt="ceva imagine">
+                </td>
+            </tr>
+            <tr>
+                <th colspan="10" bgcolor="#c4ffb5">Contact de urgență</th>
+            </tr>
+            <tr>
+                <td colspan="10">
+                    <fieldset>
+                        <legend>Date contact de urgență</legend>
+                        <table width="100%">
+                            <tr>
+                                <th>Nume</th>
+                                <th>Prenume</th>
+                                <th>Țară</th>
+                                <th>Localitate</th>
+                                <th>Telefon</th>
+                                <th>Email</th>
+                            </tr>
+                            <tr>
+                                <td><input type="text"></td>
+                                <td><input type="text"></td>
+                                <td><input type="text"></td>
+                                <td><input type="text"></td>
+                                <td><input type="text"></td>
+                                <td><input type="text"></td>
+                            </tr>
+                        </table>
+                    </fieldset>
+                </td>
+            </tr>
+            <tr>
+                <th colspan="10" bgcolor="#c4ffb5">Țări vizitate anterior în ultimele 14 zile(inclusiv cele tranzitate)
+                </th>
+            </tr>
+            <tr>
+                <td colspan="10">
+                    <table width="100%">
+                        <tr>
+                            <th>Nr</th>
+                            <th>Țara</th>
+                            <th>Stat/provincie</th>
+                            <th>Localitate</th>
+                        </tr>
+                        <tr align="center">
+                            <td><label>exemplu</label></td>
+                            <td><input type="text" value="Germania" readonly></td>
+                            <td><input type="text" value="Bavaria" readonly></td>
+                            <td><input type="text" value="Munchen" readonly></td>
+                        </tr>
+                        <tr align="center">
+                            <td><label>1</label></td>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                        </tr>
+                        <tr align="center">
+                            <td><label>2</label></td>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                        </tr>
+                        <tr align="center">
+                            <td><label>3</label></td>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <hr>
+        <ul>
+            <li>
+                <p>
+                    <span><input type="checkbox"></span>Am citit <a href="politica.txt" target="_blank"><strong>Politica de
+                    confidențialitate</strong></a> privind prelucrarea datelor cu caracter personal de către
+                    autoritățile competente.
+                </p>
+            </li>
+            <li>
+                <p>
+                    <span><input type="checkbox"></span>Am luat la cunoștință de obligația de completare a
+                    formularului cu cel mult 72 de ore înainte de intrare pe teritoriul României, iar completarea
+                    cu mai mult de 72 de ore atrage după sine anularea acestuia.
+                </p>
+            </li>
+            <li>
+                <p>
+                    <span><input type="checkbox"></span>Am luat la cunoștință faptul că documentul de călătorie
+                    menționat în prezentul formular este documentul care trebuie/a fost prezentat la control în
+                    punctul de trecere a frontiere.
+            </li>
+        </ul>
+        <hr>
+        <h2>Chestionar covid</h2>
+        <ol type="a">
+
+            <li>
+                Ați locuit/vizitat zone în care se aflau persoane suferinde din cauza infecției cu COVID-19?
+                <span>
+                    <label><input type="radio" id="da1" name="raspuns1">DA</label>
+                    <label><input type="radio" id="nu1" name="raspuns1">NU</label>
+                </span>
+            </li>
+            <li>
+                Ați fost în contact direct cu persoane suferinde din cauza infecției cu COVID-19 la serviciu,
+                în vecinătatea locuinței sau vizitând unități medicale ori alte genuri de locuri
+                în ultimele 14 zile?
+                <span>
+                    <label><input type="radio" id="da2" name="raspuns2">DA</label>
+                    <label><input type="radio" id="nu2" name="raspuns2">NU</label>
+                </span>
+            </li>
+            <li>
+                Ați fost spitalizat în ultimele trei săptămâni?
+                <span>
+                    <label><input type="radio" id="da3" name="raspuns3">DA</label>
+                    <label><input type="radio" id="nu3" name="raspuns3">NU</label>
+                </span>
+            </li>
+            <li>
+                Ați avut unul sau mai multe dintre următoarele simptome?
+                <ol type="A">
+                    <li>
+                        <span><input type="checkbox" checked></span>Febră
+                    </li>
+                    <li>
+                        <span><input type="checkbox"></span>Dificultatea de a înghiți
+                    </li>
+                    <li>
+                        <span><input type="checkbox"></span>Dificultatea de a respira
+                    </li>
+                    <li>
+                        <span><input type="checkbox"></span>Tuse
+                    </li>
+                </ol>
+            </li>
+        </ol>
+        <hr>
+        <p>Pentru mai multe informații:</p>
+        <ul>
+            <li><a href="https://gov.ro/ro/info-coronavirus-covid-19" target="_blank">Info coronavirus</a></li>
+            <li><a href="https://plf.gov.ro/" target="_blank">Formular intrare în țară</a></li>
+            <li><a href="https://certificat-covid.gov.ro/" target="_blank">Certificat covid</a></li>
+        </ul>
+        <input type="submit">
+        <input type="reset">
+    </form>
+</body>
+
+</html>

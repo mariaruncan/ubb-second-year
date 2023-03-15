@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+	<parent>
+		<name>Clienti</name>
+		<noFields>4</noFields>
+		<fields>
+			<field>
+				<name>idClient</name>
+				<PK>true</PK>
+				<FK>false</FK>
+			</field>
+			<field>
+				<name>nume</name>
+				<PK>false</PK>
+				<FK>false</FK>
+			</field>
+			<field>
+				<name>prenume</name>
+				<PK>false</PK>
+				<FK>false</FK>
+			</field>
+			<field>
+				<name>varsta</name>
+				<PK>false</PK>
+				<FK>false</FK>
+			</field>
+		</fields>
+		<selectCmd>SELECT * FROM Clienti;</selectCmd>
+	</parent>
+
+	<child>
+		<name>Comenzi</name>
+		<noFields>7</noFields>
+		<fields>
+			<field>
+				<name>idComanda</name>
+				<PK>true</PK>
+				<FK>false</FK>
+			</field>
+			<field>
+				<name>data</name>
+				<PK>false</PK>
+				<FK>false</FK>
+			</field>
+			<field>
+				<name>mod_plata</name>
+				<PK>false</PK>
+				<FK>false</FK>
+			</field>
+			<field>
+				<name>valoare</name>
+				<PK>false</PK>
+				<FK>false</FK>
+			</field>
+			<field>
+				<name>angajat</name>
+				<PK>false</PK>
+				<FK>false</FK>
+			</field>
+			<field>
+				<name>idAdresa</name>
+				<PK>false</PK>
+				<FK>false</FK>
+			</field>
+			<field>
+				<name>idClient</name>
+				<PK>false</PK>
+				<FK>true</FK>
+			</field>
+		</fields>
+		<selectCmd>SELECT * FROM Comenzi WHERE idClient = @param0;</selectCmd>
+		<insertCmd>INSERT INTO Comenzi (data, mod_plata, valoare, angajat, idAdresa, idClient) VALUES (@param0, @param1, @param2, @param3, @param4, @param5);</insertCmd>
+		<updateCmd>UPDATE Comenzi SET data = @param0, mod_plata = @param1, valoare = @param2, angajat = @param3, idAdresa = @param4, idClient = @param5 WHERE idComanda = @param6;</updateCmd>
+		<deleteCmd>DELETE FROM Comenzi WHERE idComanda = @param0;</deleteCmd>
+	</child>
+</configuration>

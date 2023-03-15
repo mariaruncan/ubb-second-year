@@ -1,0 +1,8 @@
+C:\Users\rmari\source\repos\S1SGBD\S1SGBD\bin\Debug\S1SGBD.exe.config
+C:\Users\rmari\source\repos\S1SGBD\S1SGBD\bin\Debug\S1SGBD.exe
+C:\Users\rmari\source\repos\S1SGBD\S1SGBD\bin\Debug\S1SGBD.pdb
+C:\Users\rmari\source\repos\S1SGBD\S1SGBD\obj\Debug\S1SGBD.csproj.AssemblyReference.cache
+C:\Users\rmari\source\repos\S1SGBD\S1SGBD\obj\Debug\S1SGBD.csproj.SuggestedBindingRedirects.cache
+C:\Users\rmari\source\repos\S1SGBD\S1SGBD\obj\Debug\S1SGBD.csproj.CoreCompileInputs.cache
+C:\Users\rmari\source\repos\S1SGBD\S1SGBD\obj\Debug\S1SGBD.exe
+C:\Users\rmari\source\repos\S1SGBD\S1SGBD\obj\Debug\S1SGBD.pdb

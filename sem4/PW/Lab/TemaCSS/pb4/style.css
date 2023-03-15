@@ -1,0 +1,124 @@
+img {
+    float: left;
+}
+
+#img1 {
+    width: 84px;
+    height: 84px;
+    background: url(img.png) 0 84px;
+}
+#img1:hover {
+    width: 84px;
+    height: 84px;
+    background: url(img.png) 0 0;
+}
+
+#img2 {
+    width: 84px;
+    height: 84px;
+    background: url(img.png) 84px 84px;
+}
+#img2:hover {
+    width: 84px;
+    height: 84px;
+    background: url(img.png) 84px 0;
+}
+
+#img3 {
+    width: 84px;
+    height: 84px;
+    background: url(img.png) 168px 84px;
+}
+#img3:hover {
+    width: 84px;
+    height: 84px;
+    background: url(img.png) 168px 0;
+}
+
+#img4 {
+    width: 84px;
+    height: 84px;
+    background: url(img.png) 252px 84px;
+}
+#img4:hover {
+    width: 84px;
+    height: 84px;
+    background: url(img.png) 252px 0;
+}
+
+#img5 {
+    width: 84px;
+    height: 84px;
+    background: url(img.png) 336px 84px;
+}
+#img5:hover {
+    width: 84px;
+    height: 84px;
+    background: url(img.png) 336px 0;
+}
+
+#img6 {
+    width: 84px;
+    height: 84px;
+    background: url(img.png) 420px 84px;
+}
+#img6:hover {
+    width: 84px;
+    height: 84px;
+    background: url(img.png) 420px 0;
+}
+
+#img7 {
+    width: 84px;
+    height: 84px;
+    background: url(img.png) 504px 84px;
+}
+#img7:hover {
+    width: 84px;
+    height: 84px;
+    background: url(img.png) 504px 0;
+}
+
+#img8 {
+    width: 84px;
+    height: 84px;
+    background: url(img.png) 588px 84px;
+}
+#img8:hover {
+    width: 84px;
+    height: 84px;
+    background: url(img.png) 588px 0;
+}
+
+#img9 {
+    width: 84px;
+    height: 84px;
+    background: url(img.png) 672px 84px;
+}
+#img9:hover {
+    width: 84px;
+    height: 84px;
+    background: url(img.png) 672px 0;
+}
+
+#img10 {
+    width: 84px;
+    height: 84px;
+    background: url(img.png) 756px 84px;
+}
+#img10:hover {
+    width: 84px;
+    height: 84px;
+    background: url(img.png) 756px 0;
+}
+
+#img11 {
+    width: 84px;
+    height: 84px;
+    background: url(img.png) 840px 84px;
+}
+#img11:hover {
+    width: 84px;
+    height: 84px;
+    background: url(img.png) 840px 0;
+}

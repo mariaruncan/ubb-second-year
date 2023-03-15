@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pb 6</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <style>
+        #comboContainer{
+            display: flex;
+            flex-direction: row;
+        }
+        select{
+            width: 150px;
+            margin-right: 20px;
+            margin-left: 5px;
+        }
+        table {
+            border: 1px solid black;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        td, th {
+            border: 1px solid black;
+            width: 150px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="comboContainer">
+        <label for="producer">Producer:</label><select id="producer"></select>
+        <label for="model">Model:</label><select id="model"></select>
+        <label for="RAM_memory">RAM memory:</label><select id="RAM_memory"></select>
+        <label for="internal_memory">Internal memory:</label><select id="internal_memory"></select>
+        <label for="os">Operating system:</label><select id="os"></select>
+        <button id="reset">Reset filters</button>
+    </div>
+    <table id="result"></table>
+</body>
+</html>

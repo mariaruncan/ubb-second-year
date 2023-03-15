@@ -1,0 +1,27 @@
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+td{
+    -webkit-user-select: none;
+    font-size: 50px;
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+}
+.covered {
+    color: transparent;
+}
+.uncovered {
+    color: black;
+}
+
+p {
+    color: green;
+    font-size: large;
+}
+
+div {
+    width: 200px;
+}

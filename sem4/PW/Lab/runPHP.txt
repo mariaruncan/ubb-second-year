@@ -1,0 +1,40 @@
+1. install xampp (https://www.apachefriends.org/ro/download.html)
+https://www.youtube.com/watch?v=-f8N4FEQWyY
+https://www.geeksforgeeks.org/how-to-install-xampp-on-windows/
+
+2. run apache from xampp panel & mySql if needed
+Access MySQL db -> http://localhost/phpmyadmin/
+
+3. Go to the C://xampp (the path where xampp was installed) -> htdocs -> demo.php
+To run your PHP programs, they all need to be located in xampp/htdocs 
+
+4. create a new folder in htdocs (name: myapps) and a file test.php with the following code
+<?php
+$txt = "PHP";
+echo "Test $txt!";
+?>
+
+5. Access http://127.0.0.1/myapps/test.php OR http://localhost/myapps/test.php
+			    |
+			name of the folder 
+
+6. Connect to the MySQL database 
+-> https://www.w3schools.com/php/php_mysql_intro.asp
+
+$servername="localhost";
+$dbname="labajax";
+$conn=new mysqli($servername,"root","",$dbname);
+if ($conn->connect_error)
+	die("Connection failed to my sql ".$conn->connect_error);
+else 
+	echo "Connected to my sql";
+	
+$sql="SELECT * from `tablename` order by id";
+$result=$conn->query($sql);
+
+
+OBS: 
+RUN php in VS Code
+https://www.youtube.com/watch?v=begPcGfAwzY
+Run PHP in PhpStorm
+https://www.youtube.com/watch?v=ZBccwyNOfGM

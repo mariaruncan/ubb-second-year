@@ -1,0 +1,17 @@
+.parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    border-style: solid;
+    border-color: black;
+}
+
+.child {
+    width: 200px;
+    text-align: center;
+}
+
+img {
+    max-width: 200px;
+}

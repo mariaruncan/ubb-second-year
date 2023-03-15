@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+	<parent>
+		<name>Producatori</name>
+		<noFields>4</noFields>
+		<fields>
+			<field>
+				<name>idProducator</name>
+				<PK>true</PK>
+				<FK>false</FK>
+			</field>
+			<field>
+				<name>nume</name>
+				<PK>false</PK>
+				<FK>false</FK>
+			</field>
+			<field>
+				<name>telefon</name>
+				<PK>false</PK>
+				<FK>false</FK>
+			</field>
+			<field>
+				<name>mail</name>
+				<PK>false</PK>
+				<FK>false</FK>
+			</field>
+		</fields>
+		<selectCmd>SELECT * FROM Producatori;</selectCmd>
+	</parent>
+	
+	<child>
+		<name>Produse</name>
+		<noFields>6</noFields>
+		<fields>
+			<field>
+				<name>idProdus</name>
+				<PK>true</PK>
+				<FK>false</FK>
+			</field>
+			<field>
+				<name>nume</name>
+				<PK>false</PK>
+				<FK>false</FK>
+			</field>
+			<field>
+				<name>tip</name>
+				<PK>false</PK>
+				<FK>false</FK>
+			</field>
+			<field>
+				<name>volum</name>
+				<PK>false</PK>
+				<FK>false</FK>
+			</field>
+			<field>
+				<name>pret</name>
+				<PK>false</PK>
+				<FK>false</FK>
+			</field>
+			<field>
+				<name>idProducator</name>
+				<PK>false</PK>
+				<FK>true</FK>
+			</field>
+		</fields>
+		<selectCmd>SELECT * FROM Produse WHERE idProducator = @param0;</selectCmd>
+		<insertCmd>INSERT INTO Produse (nume, tip, volum, pret, idProducator) VALUES (@param0, @param1, @param2, @param3, @param4);</insertCmd>
+		<updateCmd>UPDATE Produse SET nume = @param0, tip = @param1, volum = @param2, pret = @param3, idProducator = @param4 WHERE idProdus = @param5;</updateCmd>
+		<deleteCmd>DELETE FROM Produse WHERE idProdus = @param0;</deleteCmd>
+	</child>
+</configuration>

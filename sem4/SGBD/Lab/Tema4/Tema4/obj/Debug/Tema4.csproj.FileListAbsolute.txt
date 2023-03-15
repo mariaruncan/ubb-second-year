@@ -1,0 +1,8 @@
+D:\Facultate\Semestrul 4\SGBD\Lab\Tema4\Tema4\bin\Debug\Tema4.exe.config
+D:\Facultate\Semestrul 4\SGBD\Lab\Tema4\Tema4\bin\Debug\Tema4.exe
+D:\Facultate\Semestrul 4\SGBD\Lab\Tema4\Tema4\bin\Debug\Tema4.pdb
+D:\Facultate\Semestrul 4\SGBD\Lab\Tema4\Tema4\obj\Debug\Tema4.csproj.AssemblyReference.cache
+D:\Facultate\Semestrul 4\SGBD\Lab\Tema4\Tema4\obj\Debug\Tema4.csproj.SuggestedBindingRedirects.cache
+D:\Facultate\Semestrul 4\SGBD\Lab\Tema4\Tema4\obj\Debug\Tema4.csproj.CoreCompileInputs.cache
+D:\Facultate\Semestrul 4\SGBD\Lab\Tema4\Tema4\obj\Debug\Tema4.exe
+D:\Facultate\Semestrul 4\SGBD\Lab\Tema4\Tema4\obj\Debug\Tema4.pdb

@@ -1,0 +1,11 @@
+D:\Facultate\Semestrul 4\SGBD\Seminar\Seminar 6\Problema1\Problema1\bin\Debug\Problema1.exe.config
+D:\Facultate\Semestrul 4\SGBD\Seminar\Seminar 6\Problema1\Problema1\bin\Debug\Problema1.exe
+D:\Facultate\Semestrul 4\SGBD\Seminar\Seminar 6\Problema1\Problema1\bin\Debug\Problema1.pdb
+D:\Facultate\Semestrul 4\SGBD\Seminar\Seminar 6\Problema1\Problema1\obj\Debug\Problema1.csproj.AssemblyReference.cache
+D:\Facultate\Semestrul 4\SGBD\Seminar\Seminar 6\Problema1\Problema1\obj\Debug\Problema1.csproj.SuggestedBindingRedirects.cache
+D:\Facultate\Semestrul 4\SGBD\Seminar\Seminar 6\Problema1\Problema1\obj\Debug\Problema1.Properties.Resources.resources
+D:\Facultate\Semestrul 4\SGBD\Seminar\Seminar 6\Problema1\Problema1\obj\Debug\Problema1.csproj.GenerateResource.cache
+D:\Facultate\Semestrul 4\SGBD\Seminar\Seminar 6\Problema1\Problema1\obj\Debug\Problema1.csproj.CoreCompileInputs.cache
+D:\Facultate\Semestrul 4\SGBD\Seminar\Seminar 6\Problema1\Problema1\obj\Debug\Problema1.exe
+D:\Facultate\Semestrul 4\SGBD\Seminar\Seminar 6\Problema1\Problema1\obj\Debug\Problema1.pdb
+D:\Facultate\Semestrul 4\SGBD\Seminar\Seminar 6\Problema1\Problema1\obj\Debug\Problema1.Form1.resources

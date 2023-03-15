@@ -1,0 +1,22 @@
+C:\Users\rmari\Desktop\mpp-proiect-repository-mariaruncan\Seminar 2 226 SGBD\Seminar 2 226 SGBD\bin\Debug\Seminar 2 226 SGBD.exe.config
+C:\Users\rmari\Desktop\mpp-proiect-repository-mariaruncan\Seminar 2 226 SGBD\Seminar 2 226 SGBD\bin\Debug\Seminar 2 226 SGBD.exe
+C:\Users\rmari\Desktop\mpp-proiect-repository-mariaruncan\Seminar 2 226 SGBD\Seminar 2 226 SGBD\bin\Debug\Seminar 2 226 SGBD.pdb
+C:\Users\rmari\Desktop\mpp-proiect-repository-mariaruncan\Seminar 2 226 SGBD\Seminar 2 226 SGBD\obj\Debug\Seminar 2 226 SGBD.csproj.AssemblyReference.cache
+C:\Users\rmari\Desktop\mpp-proiect-repository-mariaruncan\Seminar 2 226 SGBD\Seminar 2 226 SGBD\obj\Debug\Seminar 2 226 SGBD.csproj.SuggestedBindingRedirects.cache
+C:\Users\rmari\Desktop\mpp-proiect-repository-mariaruncan\Seminar 2 226 SGBD\Seminar 2 226 SGBD\obj\Debug\Seminar_2_226_SGBD.Form1.resources
+C:\Users\rmari\Desktop\mpp-proiect-repository-mariaruncan\Seminar 2 226 SGBD\Seminar 2 226 SGBD\obj\Debug\Seminar_2_226_SGBD.Properties.Resources.resources
+C:\Users\rmari\Desktop\mpp-proiect-repository-mariaruncan\Seminar 2 226 SGBD\Seminar 2 226 SGBD\obj\Debug\Seminar 2 226 SGBD.csproj.GenerateResource.cache
+C:\Users\rmari\Desktop\mpp-proiect-repository-mariaruncan\Seminar 2 226 SGBD\Seminar 2 226 SGBD\obj\Debug\Seminar 2 226 SGBD.csproj.CoreCompileInputs.cache
+C:\Users\rmari\Desktop\mpp-proiect-repository-mariaruncan\Seminar 2 226 SGBD\Seminar 2 226 SGBD\obj\Debug\Seminar 2 226 SGBD.exe
+C:\Users\rmari\Desktop\mpp-proiect-repository-mariaruncan\Seminar 2 226 SGBD\Seminar 2 226 SGBD\obj\Debug\Seminar 2 226 SGBD.pdb
+D:\Facultate\Semestrul 4\SGBD\Seminar\Seminar 2 226 SGBD\Seminar 2 226 SGBD\bin\Debug\Seminar 2 226 SGBD.exe.config
+D:\Facultate\Semestrul 4\SGBD\Seminar\Seminar 2 226 SGBD\Seminar 2 226 SGBD\bin\Debug\Seminar 2 226 SGBD.exe
+D:\Facultate\Semestrul 4\SGBD\Seminar\Seminar 2 226 SGBD\Seminar 2 226 SGBD\bin\Debug\Seminar 2 226 SGBD.pdb
+D:\Facultate\Semestrul 4\SGBD\Seminar\Seminar 2 226 SGBD\Seminar 2 226 SGBD\obj\Debug\Seminar 2 226 SGBD.csproj.AssemblyReference.cache
+D:\Facultate\Semestrul 4\SGBD\Seminar\Seminar 2 226 SGBD\Seminar 2 226 SGBD\obj\Debug\Seminar 2 226 SGBD.csproj.SuggestedBindingRedirects.cache
+D:\Facultate\Semestrul 4\SGBD\Seminar\Seminar 2 226 SGBD\Seminar 2 226 SGBD\obj\Debug\Seminar_2_226_SGBD.Form1.resources
+D:\Facultate\Semestrul 4\SGBD\Seminar\Seminar 2 226 SGBD\Seminar 2 226 SGBD\obj\Debug\Seminar_2_226_SGBD.Properties.Resources.resources
+D:\Facultate\Semestrul 4\SGBD\Seminar\Seminar 2 226 SGBD\Seminar 2 226 SGBD\obj\Debug\Seminar 2 226 SGBD.csproj.GenerateResource.cache
+D:\Facultate\Semestrul 4\SGBD\Seminar\Seminar 2 226 SGBD\Seminar 2 226 SGBD\obj\Debug\Seminar 2 226 SGBD.csproj.CoreCompileInputs.cache
+D:\Facultate\Semestrul 4\SGBD\Seminar\Seminar 2 226 SGBD\Seminar 2 226 SGBD\obj\Debug\Seminar 2 226 SGBD.exe
+D:\Facultate\Semestrul 4\SGBD\Seminar\Seminar 2 226 SGBD\Seminar 2 226 SGBD\obj\Debug\Seminar 2 226 SGBD.pdb

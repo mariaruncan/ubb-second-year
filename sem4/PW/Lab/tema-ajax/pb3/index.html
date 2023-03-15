@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pb 3</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <style>
+        form{
+            display: flex;
+            flex-direction: column;
+            width: 300px;
+        }
+        select{
+            margin-bottom: 20px;
+            width: 150px;
+        }
+        button{
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <label for="listClients">Please select client id:</label>
+    <select id="listClients"></select>
+
+    <form>
+        <label for="firstname">Firstname:</label>
+        <input id="firstname" name="firstname" type="text">
+
+        <label for="lastname">Lastname:</label>
+        <input id="lastname" name="lastname" type="text">
+
+        <label for="phoneNumber">PhoneNumber:</label>
+        <input id="phoneNumber" name="phoneNumber" type="text">
+
+        <label for="email">Email:</label>
+        <input id="email" name="email" type="text">
+
+        <button id="submitButton" type="button">Save data</button>
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,124 @@
+PHP lab - guidelines
+
+1. Nu se foloseste JavaScript sau jQuery sau AJAX!!!
+<form action ='file.php' method="GET">
+<input type="text" name="id">
+<button type=submit></button> 
+</form>
+
+Atributul method in form poate fi si POST
+La click pe butonul din from cu type=submit se face un request GET/POST (in functie de metoda specificate in form)
+si datele din form (daca e GET se pun in query string, daca e POST in body)
+la server, adica la fisierul file.php
+
+<a href="file.php">Click</a>
+- requestul de GET la server se mai poate face si prin hyperlink, tagul HTML a
+
+PHP poate fi folosit impreuna cu cod HTML
+Exemplu fisier.php:
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Profil</title>
+
+</head>
+    <?php
+    require_once ("login.php");
+    ?>
+<body>
+        ALTE ELEMENTE HTML .... 
+   <?php
+    require_once('connect.php');
+    require('session.php');
+    $sql = "SELECT * FROM table";
+    $result = $conn->query($sql);
+    // procesare ... etc
+    echo $variabila_string_cu_cod_HTML 
+    $conn->close();
+    ?>
+
+</body>
+</html>
+
+2. Auth
+start_session()
+---> functia start_session() se apeleaza de fiecare data cand se lucreaza cu sesiunea din PHP
+sesiunea se acceseaza prin $_SESSION
+- se pot retine diferite date pe sesiune
+- PHP face management la sesiuni folosind un cookie de sesiune
+- How PHP sessions work in details: https://code.tutsplus.com/tutorials/how-to-use-sessions-and-session-variables-in-php--cms-31839
+$_SESSION['userId'] = $userId
+
+Logout example: 
+session_start();
+session_unset(); 
+if(session_destroy()) // Destroying All Sessions
+{
+    header("Location: login.php"); // Redirecting To LoginPage
+}
+
+3. Prevent SQL injection
+$stmt = $conn->prepare($sql) # prepare statement
+$stmt->bind_param("s", $id)
+$conn->real_escape_string ....
+https://www.w3schools.com/php/php_mysql_prepared_statements.asp
+https://www.w3schools.com/php/func_mysqli_real_escape_string.asp
+
+Prevent Cross Site Scripting
+More here: https://www.geeksforgeeks.org/how-to-prevent-xss-with-html-php/
+
+Datele introduse in inputuri de pe frontend pot fi "curatate" pe backend
+Va puteti folosi de urmatoarele functii PHP:
+$data = trim($data);
+$data = stripslashes($data);
+$data = htmlspecialchars($data);
+Read more here: 
+https://www.w3schools.com/php/func_string_trim.asp
+https://www.w3schools.com/php/func_string_stripslashes.asp
+https://www.w3schools.com/php/func_string_htmlspecialchars.asp
+
+
+4. Send mail in PHP
+
+Calea unde s-a instalat xampp/sendmail/sendmail.ini
+SMTP_SERVER = linux.scs.ubbcluj.ro
+SMTP_PORT = 25
+SMTP_SSL = TLS
+error_logfile=error.log
+debug_logfile=debug.log
+AUTH_USERNAME = codStud@scs.ubbcluj.ro
+AUTH_PASSWORD = ******
+HOSTNAME = LOCALHOST
+FORCE_SENDER = codStud@scs.ubbcluj.ro
+
+Calea unde s-a instalat xampp/php/php.ini
+extension=PHP_OPENSSL.DLL
+SMTP = linux.scs.ubbcluj.ro
+SMTP_PORT = 25
+SENDMAIL_FROM = codStud@scs.ubbcluj.ro
+SENDMAIL_PATH = "\"C:\xampp\sendmail\sendmail.exe\" -t"
+
+SAU se poate folosi un cont de gmail care nu are activata autentificarea in 2 pasi
+https://www.youtube.com/watch?v=IjA4CDGebYE
+
+
+Calea unde s-a instalat xampp/sendmail/sendmail.ini
+SMTP_SERVER = smtp.gmail.com
+SMTP_PORT = 587
+SMTP_SSL = TLS
+error_logfile=error.log
+debug_logfile=debug.log
+AUTH_USERNAME = email@gmail.com
+AUTH_PASSWORD = ******
+HOSTNAME = LOCALHOST
+FORCE_SENDER = email@gmail.com
+
+
+Calea unde s-a instalat xampp/php/php.ini
+extension=PHP_OPENSSL.DLL
+SMTP = smtp.gmail.com
+SMTP_PORT = 587
+SENDMAIL_FROM = email@gmail.com
+SENDMAIL_PATH = "\"C:\xampp\sendmail\sendmail.exe\" -t"
+
+Mailul care se trimite asa, foarte probabil sa intre in SPAM.

@@ -1,0 +1,25 @@
+CREATE OR ALTER PROCEDURE startThread1
+AS
+BEGIN
+	SET TRANSACTION ISOLATION LEVEL SERIALIZABLE
+	BEGIN TRAN
+		UPDATE Clienti SET nume = 'c# th1' WHERE idClient = 23
+		WAITFOR DELAY '00:00:5'
+		UPDATE Producatori SET nume = 'c# th1' WHERE idProducator = 20
+	COMMIT TRAN
+END
+
+
+CREATE OR ALTER PROCEDURE startThread2
+AS
+BEGIN
+	SET TRANSACTION ISOLATION LEVEL SERIALIZABLE
+	BEGIN TRAN
+		UPDATE Producatori SET nume = 'c# th2' WHERE idProducator = 20
+		WAITFOR DELAY '00:00:5'
+		UPDATE Clienti SET nume = 'c# th2' WHERE idClient = 23
+	COMMIT TRAN
+END
+
+select * from Clienti
+select * from Producatori

@@ -1,0 +1,11 @@
+C:\Users\rmari\Desktop\TemaLab2\TemaLab2Bun\bin\Debug\TemaLab2Bun.exe.config
+C:\Users\rmari\Desktop\TemaLab2\TemaLab2Bun\bin\Debug\TemaLab2Bun.exe
+C:\Users\rmari\Desktop\TemaLab2\TemaLab2Bun\bin\Debug\TemaLab2Bun.pdb
+C:\Users\rmari\Desktop\TemaLab2\TemaLab2Bun\obj\Debug\TemaLab2.csproj.AssemblyReference.cache
+C:\Users\rmari\Desktop\TemaLab2\TemaLab2Bun\obj\Debug\TemaLab2.csproj.SuggestedBindingRedirects.cache
+C:\Users\rmari\Desktop\TemaLab2\TemaLab2Bun\obj\Debug\Seminar_2_226_SGBD.Form1.resources
+C:\Users\rmari\Desktop\TemaLab2\TemaLab2Bun\obj\Debug\TemaLab2Bun.Properties.Resources.resources
+C:\Users\rmari\Desktop\TemaLab2\TemaLab2Bun\obj\Debug\TemaLab2.csproj.GenerateResource.cache
+C:\Users\rmari\Desktop\TemaLab2\TemaLab2Bun\obj\Debug\TemaLab2.csproj.CoreCompileInputs.cache
+C:\Users\rmari\Desktop\TemaLab2\TemaLab2Bun\obj\Debug\TemaLab2Bun.exe
+C:\Users\rmari\Desktop\TemaLab2\TemaLab2Bun\obj\Debug\TemaLab2Bun.pdb
